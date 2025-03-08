@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" />
+    <!-- FIM DA GOOGLE FONTS -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>CALCULO DE MEDIA</title>
+</head>
+
+<body>
+    <container class="mediaSalarial">
+        <form class="form">
+            <div class="box-input">
+                <h1 class="NamePrincipal">Media salarial</h1>
+                <input type="text" class="mes1" placeholder="Digite o mês" />
+                <input type="number" class= "salario1" id="salario1" placeholder="Ganhos do primeiro mês R$" />
+            </div>
+            <div class="box-input">
+                <input type="text" class="mes2" placeholder="Digite o mês" />
+                <input type="number" class= "salario2" id="salario2" placeholder="Ganhos do segundo mês R$" />
+            </div>
+            <div class="box-input">
+                <input type="text" class="mes3" placeholder="Digite o mês" />
+                <input type="number" class= "salario3" id="salario3" placeholder="Ganhos do terceiro mês R$" />
+            </div>
+            <div class="box-input">
+                <input type="text" class="mes4" placeholder="Digite o mês" />
+                <input type="number" class= "salario4" id="salario4" placeholder="Ganhos do quarto mês R$" />
+            </div>
+
+            <button class="btn" type="button" onclick="calcularMedia()">Calcular</button>
+
+            <div id="resultado"></div>
+        </form>
+    </container>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
